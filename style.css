@@ -18,6 +18,9 @@ h2 {
     font-family: oswald, verdana, Arial, Helvetica, sans-serif;
     letter-spacing: 2px;
 }
+h2 ~ p {
+    color: green;
+  }
 
 h3 {
     text-align: center;
@@ -49,7 +52,17 @@ ul {
     padding: 0;
     list-style-position: inside;
 }
-figure img{
+img{
 
+    max-width: 100%;
+}
+
+figure img{
+transform: scale(0.9);
+
+}
+
+figure img:hover {
+    transform: scale(1);
 
 }
