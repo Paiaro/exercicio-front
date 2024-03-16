@@ -7,12 +7,12 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
     background-image: linear-gradient(to right, #ff9966, #ff5e62, #ffc371);
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
-.borda-redonda {
-    border: 5px solid black;
+figure img {
+    border: 2px solid black;
     border-radius: 10px;
 }
 
@@ -28,12 +28,13 @@ figure img:hover {
 hr {
 
     padding: 3%;
-    background-color: #f8f9fa;
+    background-color: white;
 }
+
 .voltar {
     position: fixed;
-    margin-top: auto;
-    left: 20px;
+    margin-top: -4%;
+    left: 10px;
     padding: 10px 20px;
     background-color: #333;
     color: #fff;
@@ -41,15 +42,24 @@ hr {
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
-    
-  }
-  
-  .voltar:hover {
-    background-color: #444;
-  
-}
-button{
 
-    
 }
-  
+
+.voltar:hover {
+    background-color: #444;
+
+}
+
+h2 {
+    background-color: #33333358;
+}
+
+h3 {
+    background-color: #33333358;
+}
+
+footer {
+
+    background-color: #f8f9fa;
+    padding: 2%;
+}
