@@ -1,17 +1,55 @@
-
 .titulo-fixo {
     position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: #f8f9fa;
-  padding: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  background-image: linear-gradient(to right, #ff9966, #ff5e62, #ffc371);
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-image: linear-gradient(to right, #ff9966, #ff5e62, #ffc371);
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 .borda-redonda {
     border: 5px solid black;
     border-radius: 10px;
+}
+
+body {
+    text-align: center;
+}
+
+figure img:hover {
+
+    transform: scale(1.05);
+}
+
+hr {
+
+    padding: 3%;
+    background-color: #f8f9fa;
+}
+.voltar {
+    position: fixed;
+    margin-top: auto;
+    left: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    
   }
+  
+  .voltar:hover {
+    background-color: #444;
+  
+}
+button{
+
+    
+}
+  
