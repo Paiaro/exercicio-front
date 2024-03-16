@@ -18,6 +18,10 @@ figure img {
 
 body {
     text-align: center;
+    background-image: url('');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
 }
 
 figure img:hover {
