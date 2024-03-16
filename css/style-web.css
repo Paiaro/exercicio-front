@@ -1,0 +1,17 @@
+
+.titulo-fixo {
+    position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f8f9fa;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-image: linear-gradient(to right, #ff9966, #ff5e62, #ffc371);
+}
+
+.borda-redonda {
+    border: 5px solid black;
+    border-radius: 10px;
+  }
