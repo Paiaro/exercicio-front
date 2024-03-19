@@ -8,7 +8,7 @@
     text-align: center;
     background-image: linear-gradient(to right, #ff9966, #ff5e62, #ffc371);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+    z-index: 20;
 }
 
 figure img {
@@ -68,10 +68,10 @@ footer {
     padding: 2%;
 }
 
-p{
-font-size: large;
-font-weight: bold;
-font-family: 'Times New Roman', Times, serif;
+p {
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
 
 }
 
@@ -79,9 +79,9 @@ font-family: 'Times New Roman', Times, serif;
 nav {
     background-color: #050505c9;
     overflow: hidden;
-  }
+}
 
-  nav a {
+nav a {
     /* "display" para deixar as opções em blocos */
     display: block;
     color: white;
@@ -90,18 +90,16 @@ nav {
     text-decoration: none;
     /* background-image: linear-gradient(to right, #ff9966, #ff5e62, #ffc371); */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
+}
 
-  nav a:hover {
+nav a:hover {
     background-color: white;
     color: black;
-  }
+}
 
-  /* responsivo para mobile */
-  @media screen and (max-width: 600px) {
-    
-  }
-    nav a {
-      float:none;
-    }
-    
+/* responsivo para mobile */
+@media screen and (max-width: 600px) {}
+
+nav a {
+    float: none;
+}
