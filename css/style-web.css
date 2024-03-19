@@ -88,6 +88,8 @@ nav {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    /* background-image: linear-gradient(to right, #ff9966, #ff5e62, #ffc371); */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
   nav a:hover {
