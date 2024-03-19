@@ -37,7 +37,7 @@ hr {
 
 .voltar {
     position: fixed;
-    margin-top: -4%;
+    margin-top: -5%;
     left: 10px;
     padding: 10px 20px;
     background-color: #333;
@@ -74,3 +74,32 @@ font-weight: bold;
 font-family: 'Times New Roman', Times, serif;
 
 }
+
+/* navegação do menu */
+nav {
+    background-color: #050505c9;
+    overflow: hidden;
+  }
+
+  nav a {
+    /* "display" para deixar as opções em blocos */
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  nav a:hover {
+    background-color: white;
+    color: black;
+  }
+
+  /* responsivo para mobile */
+  @media screen and (max-width: 600px) {
+    
+  }
+    nav a {
+      float: none;
+    }
+    
